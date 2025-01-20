@@ -108,8 +108,12 @@ main > section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+   
+}
+.team-image-container img{
     width: 100%;
 }
+
 .team-features{
     margin-left: 130px;
     max-width: 430px;
@@ -118,6 +122,53 @@ main > section{
 #Quicklist{
     font-weight: 500;
 }
+
+/* Feature style */
+.feature_enjoy{
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+}
+.feature_enjoy  p{
+    max-width: 580px;
+   
+}
+.featuere-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 30px;
+}
+.feature-card{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.feature-card .feature-card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.feature-image{
+    position: relative;
+    max-width: 100%;
+}
+.feature-image img{
+    width: 100%;
+}
+#experience-badge{
+    padding: 45px 40px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: absolute;
+    left:-92px;
+    bottom: -70px;
+}
+.Experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
 
 /* fact card Style */
 .fact-container{
@@ -176,7 +227,21 @@ main > section{
 
 
 
+/* footer style */
 
+footer{
+    background-color: rgba(255, 244, 231, 1);
+    border-radius: 8px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+footer p{
+    text-align: center;
+    color: #424242;
+    font-size: 1.25rem;
+    padding: 40px;
+}
 
 
 
@@ -210,6 +275,14 @@ main > section{
         grid-template-columns: repeat(1,1fr);
         justify-items: center;
         gap: 40px;
+    }
+    .feature_enjoy{
+        flex-direction: column;
+    }
+    #experience-badge{
+        position: static;
+        margin-top:40px;
+        margin-left: 20px;
     }
 }
 
