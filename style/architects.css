@@ -7,3 +7,80 @@
   font-weight: 400; 
   font-style: normal;
 }
+
+/* Shared Style */
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.btn-primary{
+    background-color: #FF900E;
+    padding: 20px 25px;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+
+/* color */
+.dark_2{
+    color:#424242;
+}
+.dark_3{
+    color: #727272;
+}
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* Heder style */
+
+/* Navbar Style */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-size: 3rem;
+}
+.nav_links{
+    display: flex;
+}
+
+.nav_item{
+    list-style: none;
+    padding:0 30px;
+    
+
+}
+.nav_link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color:#424242;
+}
+
+
+/* Banner Style */
+.banner-contant{
+    max-width: 830px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    text-align: center;
+}
+.banner-desctiption{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.banner-image{
+    width: 100%;
+}
+.navbar, .banner{
+    flex-direction: column;
+}
